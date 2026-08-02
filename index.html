@@ -9,31 +9,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>interactive-comments-section</title>
   </head>
-  <body class="flex flex-col justify-center items-center mt-6 bg-[#f5f6fa]">
-  <div class="bg-white w-[730px] h-[203px] rounded-2xl p-6">
+ <body class="flex flex-col justify-center items-center mt-6 bg-[#f5f6fa]">
+<!-- Card 1 -->
+<div class="comment-card bg-white w-full max-w-[730px] rounded-2xl p-5">
   <div class="flex items-center gap-3">
-    <img src="img/image-amyrobson-DIYtJakD.webp" 
-    alt="amyrobson" 
-    class="w-[32px] h-[32px]">
-    <h3 class="font-bold text-[16px]">amyrobson</h3>
-    <span class="text-gray-500 text-[16px]">2 years ago</span>
-  </div>
-  <p class="mt-4 text-gray-500 text-[16px]">
-    Impressive! Though it seems the drag feature could be improved. 
-    But overall it looks incredible. You've nailed the design and the 
-    responsiveness at various breakpoints works <br> really well.
-  </p>
-  <div class="flex justify-between items-center mt-3">
-    <div class="bg-[#f5f6fa] w-[98px] h-[40px] flex items-center justify-around rounded-2xl">
-      <button class="text-2xl font-bold text-purple-300">+</button>
-      <span class="font-bold text-purple-600">44</span>
-      <button class="text-2xl font-bold text-purple-300">-</button>
-    </div>
-    <span class="material-symbols-outlined text-[#5457B6] font-bold cursor-pointer">
-      Reply
+    <img
+      src="img/image-amyrobson-DIYtJakD.webp" alt="Profile picture of amyrobson" class="w-8 h-8">
+    <h3 class="font-bold text-[16px]">
+      amyrobson
+    </h3>
+    <span class="text-gray-500 text-sm">
+      2 years ago
     </span>
   </div>
+  <p class="mt-4 text-gray-500 text-[15px] leading-6">
+    Impressive! Though it seems the drag feature could be improved.
+    But overall it looks incredible. You've nailed the design and the
+    responsiveness at various breakpoints works really well.
+  </p>
+  <div class="flex flex-col-reverse md:flex-row justify-between items-start md:items-center mt-5 gap-4">
+<div class="score-box bg-[#f5f6fa] flex md:flex-col items-center justify-around w-[98px] h-[40px] md:w-[40px] md:h-[100px] rounded-xl">
+      <button class="plus text-2xl font-bold text-purple-300">+</button>
+      <span class="score font-bold text-purple-600">44</span>
+      <button class="minus text-2xl font-bold text-purple-300">-</button>
+    </div>
+    <button class="reply flex flex-end gap-1 text-[#5457B6] font-bold">
+      <span class="material-symbols-outlined">
+        reply
+      </span>Reply</button>
+  </div>
 </div>
+<!-- Card 2 -->
+<div class="comment-card bg-white w-full max-w-[730px] rounded-2xl p-5 mt-6">
+  <div class="flex items-center gap-3">
+    <img src="img/image-maxblagun-BOzb0Wbd.webp" alt="Profile picture of maxblagun" class="w-8 h-8">
+    <h3 class="font-bold text-[16px]">
+      maxblagun
+    </h3>
+    <span class="text-gray-500 text-sm">
+      2 years ago
+    </span>
+  </div>
+  <p class="mt-4 text-gray-500 text-[15px] leading-6">
+    Woah, your project looks awesome! How long have you been coding for?
+    I'm still new, but think I want to dive into React as well soon.
+    Perhaps you can give me an insight on where I can learn React? Thanks!
+  </p>
+<div class="flex flex-col-reverse md:flex-row justify-between items-start md:items-center mt-5 gap-4">
+    <div class="score-box bg-[#f5f6fa] flex md:flex-col items-center justify-around w-[98px] h-[40px] md:w-[40px] md:h-[100px] rounded-xl">
+      <button class="plus text-2xl font-bold text-purple-300">+</button>
+      <span class="score font-bold text-purple-600">12</span>
+      <button class="minus text-2xl font-bold text-purple-300">-</button>
+    </div>
+    <button class="reply flex items-center gap-1 text-[#5457B6] font-bold">
+      <span class="material-symbols-outlined">reply</span>Reply</button>
+  </div>
+</div>
+<!-- Card 3 -->
+<div class="comment-card bg-white w-full max-w-[730px] rounded-2xl p-5 mt-6">
+  <div class="flex items-center gap-3">
+    <img src="img/image-ramsesmiron-C5YlnrVr.webp" alt="Profile picture of ramsesmiron" class="w-8 h-8">
+    <h3 class="font-bold text-[16px]">
+      ramsesmiron
+    </h3>
+    <span class="text-gray-500 text-sm">
+      2 years ago
+    </span>
+  </div>
+  <p class="mt-4 text-gray-500 text-[15px] leading-6">
+    @maxblagun If you're still new, I'd recommend focusing on the
+    fundamentals of HTML, CSS, and JS before considering React.
+    It's very tempting to jump ahead but lay a solid foundation first.
+  </p>
+<div class="flex flex-col-reverse md:flex-row justify-between items-start md:items-center mt-5 gap-4">
+    <div class="score-box bg-[#f5f6fa] flex md:flex-col items-center justify-around w-[98px] h-[40px] md:w-[40px] md:h-[100px] rounded-xl">
+      <button class="plus text-2xl font-bold text-purple-300">+</button>
+      <span class="score font-bold text-purple-600">3</span>
+      <button class="minus text-2xl font-bold text-purple-300">-</button>
+    </div>
+    <button class="reply flex items-center gap-1 text-[#5457B6] font-bold">
+      <span class="material-symbols-outlined">
+        reply
+      </span>Reply</button>
+  </div>
+</div>
+<!-- Card4 -->
+</body>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
