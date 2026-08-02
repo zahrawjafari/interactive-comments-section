@@ -11,89 +11,204 @@
   </head>
  <body class="flex flex-col justify-center items-center mt-6 bg-[#f5f6fa]">
 <!-- Card 1 -->
-<div class="comment-card bg-white w-full max-w-[730px] rounded-2xl p-5">
-  <div class="flex items-center gap-3">
-    <img
-      src="img/image-amyrobson-DIYtJakD.webp" alt="Profile picture of amyrobson" class="w-8 h-8">
-    <h3 class="font-bold text-[16px]">
-      amyrobson
-    </h3>
-    <span class="text-gray-500 text-sm">
-      2 years ago
-    </span>
-  </div>
-  <p class="mt-4 text-gray-500 text-[15px] leading-6">
-    Impressive! Though it seems the drag feature could be improved.
-    But overall it looks incredible. You've nailed the design and the
-    responsiveness at various breakpoints works really well.
-  </p>
-  <div class="flex flex-col-reverse md:flex-row justify-between items-start md:items-center mt-5 gap-4">
-<div class="score-box bg-[#f5f6fa] flex md:flex-col items-center justify-around w-[98px] h-[40px] md:w-[40px] md:h-[100px] rounded-xl">
-      <button class="plus text-2xl font-bold text-purple-300">+</button>
-      <span class="score font-bold text-purple-600">44</span>
-      <button class="minus text-2xl font-bold text-purple-300">-</button>
+ <div class="comment-card bg-white w-full max-w-[730px] rounded-2xl p-6 mt-6">
+  <div class="flex gap-6">
+    <div
+      class="hidden md:flex bg-[#F5F6FA] rounded-xl w-10 h-24 flex-col items-center justify-around shrink-0">
+      <button class="plus text-[#C5C6EF] text-xl font-bold hover:text-[#5457B6]">+</button>
+      <span class="score font-bold text-[#5457B6]">44</span>
+      <button class="minus text-[#C5C6EF] text-xl font-bold hover:text-[#5457B6]">- </button>
     </div>
-    <button class="reply flex flex-end gap-1 text-[#5457B6] font-bold">
-      <span class="material-symbols-outlined">
-        reply
-      </span>Reply</button>
+    <div class="flex-1">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <img src="img/image-amyrobson-DIYtJakD.webp" alt="amyrobson" class="w-8 h-8">
+          <h3 class="font-bold text-[#334253]">
+            amyrobson
+          </h3>
+          <span class="text-[#67727E]">
+            2 years ago
+          </span>
+        </div>
+        <button
+          class="reply hidden md:flex items-center gap-2 font-bold text-[#5457B6] hover:opacity-70">
+          <span class="material-symbols-outlined">
+            reply
+          </span>
+          Reply
+        </button>
+      </div>
+      <p class="mt-4 text-[#67727E] leading-7">
+        Impressive! Though it seems the drag feature could be improved.
+        But overall it looks incredible. You've nailed the design and the
+        responsiveness at various breakpoints works really well.
+      </p>
+      <div class="flex md:hidden justify-between items-center mt-5">
+        <div class="bg-[#F5F6FA] rounded-xl w-24 h-10 flex items-center justify-around">
+          <button class="plus text-[#C5C6EF] text-xl font-bold">+</button>
+          <span class="score font-bold text-[#5457B6]">44
+          </span>
+          <button class="minus text-[#C5C6EF] text-xl font-bold">-</button>
+        </div>
+        <button
+          class="reply flex items-center gap-2 font-bold text-[#5457B6]">
+          <span class="material-symbols-outlined">
+            reply
+          </span>
+          Reply
+        </button>
+      </div>
+    </div>
   </div>
 </div>
 <!-- Card 2 -->
-<div class="comment-card bg-white w-full max-w-[730px] rounded-2xl p-5 mt-6">
-  <div class="flex items-center gap-3">
-    <img src="img/image-maxblagun-BOzb0Wbd.webp" alt="Profile picture of maxblagun" class="w-8 h-8">
-    <h3 class="font-bold text-[16px]">
-      maxblagun
-    </h3>
-    <span class="text-gray-500 text-sm">
-      2 years ago
-    </span>
-  </div>
-  <p class="mt-4 text-gray-500 text-[15px] leading-6">
-    Woah, your project looks awesome! How long have you been coding for?
-    I'm still new, but think I want to dive into React as well soon.
-    Perhaps you can give me an insight on where I can learn React? Thanks!
-  </p>
-<div class="flex flex-col-reverse md:flex-row justify-between items-start md:items-center mt-5 gap-4">
-    <div class="score-box bg-[#f5f6fa] flex md:flex-col items-center justify-around w-[98px] h-[40px] md:w-[40px] md:h-[100px] rounded-xl">
-      <button class="plus text-2xl font-bold text-purple-300">+</button>
-      <span class="score font-bold text-purple-600">12</span>
-      <button class="minus text-2xl font-bold text-purple-300">-</button>
+<div class="comment-card bg-white w-full max-w-[730px] rounded-2xl p-6 mt-6">
+  <div class="flex gap-6">
+    <div
+      class="hidden md:flex bg-[#F5F6FA] rounded-xl w-10 h-24 flex-col items-center justify-around shrink-0">
+      <button class="plus text-[#C5C6EF] text-xl font-bold hover:text-[#5457B6]">+</button>
+      <span class="score font-bold text-[#5457B6]">12 </span>
+      <button class="minus text-[#C5C6EF] text-xl font-bold hover:text-[#5457B6]">-</button>
     </div>
-    <button class="reply flex items-center gap-1 text-[#5457B6] font-bold">
-      <span class="material-symbols-outlined">reply</span>Reply</button>
+    <div class="flex-1">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <img src="img/image-maxblagun-BOzb0Wbd.webp" alt="maxblagun" class="w-8 h-8">
+          <h3 class="font-bold text-[#334253]">maxblagun </h3>
+          <span class="text-[#67727E]">2 years ago </span>
+        </div>
+        <button class="reply hidden md:flex items-center gap-2 font-bold text-[#5457B6] hover:opacity-70">
+          <span class="material-symbols-outlined">
+            reply</span>Reply</button>
+      </div>
+      <p class="mt-4 text-[#67727E] leading-7">
+        Woah, your project looks awesome! How long have you been coding for?
+        I'm still new, but think I want to dive into React as well soon.
+        Perhaps you can give me an insight on where I can learn React? Thanks!
+      </p>
+      <div class="flex md:hidden justify-between items-center mt-5">
+        <div class="bg-[#F5F6FA] rounded-xl w-24 h-10 flex items-center justify-around">
+          <button class="plus text-[#C5C6EF] text-xl font-bold">+</button>
+          <span class="score font-bold text-[#5457B6]">12</span>
+          <button class="minus text-[#C5C6EF] text-xl font-bold">-</button>
+        </div>
+        <button
+          class="reply flex items-center gap-2 font-bold text-[#5457B6]">
+          <span class="material-symbols-outlined">
+            reply
+          </span>Reply</button>
+      </div>
+    </div>
   </div>
 </div>
 <!-- Card 3 -->
-<div class="comment-card bg-white w-full max-w-[730px] rounded-2xl p-5 mt-6">
-  <div class="flex items-center gap-3">
-    <img src="img/image-ramsesmiron-C5YlnrVr.webp" alt="Profile picture of ramsesmiron" class="w-8 h-8">
-    <h3 class="font-bold text-[16px]">
-      ramsesmiron
-    </h3>
-    <span class="text-gray-500 text-sm">
-      2 years ago
-    </span>
-  </div>
-  <p class="mt-4 text-gray-500 text-[15px] leading-6">
-    @maxblagun If you're still new, I'd recommend focusing on the
-    fundamentals of HTML, CSS, and JS before considering React.
-    It's very tempting to jump ahead but lay a solid foundation first.
-  </p>
-<div class="flex flex-col-reverse md:flex-row justify-between items-start md:items-center mt-5 gap-4">
-    <div class="score-box bg-[#f5f6fa] flex md:flex-col items-center justify-around w-[98px] h-[40px] md:w-[40px] md:h-[100px] rounded-xl">
-      <button class="plus text-2xl font-bold text-purple-300">+</button>
-      <span class="score font-bold text-purple-600">3</span>
-      <button class="minus text-2xl font-bold text-purple-300">-</button>
+<div class="comment-card bg-white w-full max-w-[650px] md:ml-20 rounded-2xl p-6 mt-6">
+  <div class="flex gap-6">
+    <div class="hidden md:flex bg-[#F5F6FA] rounded-xl w-10 h-24 flex-col items-center justify-around shrink-0">
+      <button class="plus text-[#C5C6EF] text-xl font-bold hover:text-[#5457B6]"> + </button>
+      <span class="score font-bold text-[#5457B6]">3</span>
+      <button class="minus text-[#C5C6EF] text-xl font-bold hover:text-[#5457B6]">  - </button>
     </div>
-    <button class="reply flex items-center gap-1 text-[#5457B6] font-bold">
-      <span class="material-symbols-outlined">
-        reply
-      </span>Reply</button>
+    <div class="flex-1">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <img src="img/image-ramsesmiron-C5YlnrVr.webp" alt="ramsesmiron" class="w-8 h-8">
+          <h3 class="font-bold text-[#334253]">ramsesmiron</h3>
+          <span class="text-[#67727E]">2 years ago</span>
+        </div>
+        <button class="reply hidden md:flex items-center gap-2 font-bold text-[#5457B6] hover:opacity-70">
+          <span class="material-symbols-outlined">
+            reply</span>
+          Reply
+        </button>
+      </div>
+      <p class="mt-4 text-[#67727E] leading-7">
+        <span class="font-bold text-[#5457B6]">@maxblagun</span>
+        If you're still new, I'd recommend focusing on the fundamentals
+        of HTML, CSS, and JS before considering React. It's very tempting
+        to jump ahead but lay a solid foundation first.
+      </p>
+      <div class="flex md:hidden justify-between items-center mt-5">
+        <div class="bg-[#F5F6FA] rounded-xl w-24 h-10 flex items-center justify-around">
+          <button class="plus text-[#C5C6EF] text-xl font-bold">+</button>
+          <span class="score font-bold text-[#5457B6]">3</span>
+          <button class="minus text-[#C5C6EF] text-xl font-bold">-</button>
+        </div>
+        <button class="reply flex items-center gap-2 font-bold text-[#5457B6]">
+          <span class="material-symbols-outlined">
+            reply
+          </span>Reply</button>
+      </div>
+    </div>
   </div>
 </div>
 <!-- Card4 -->
+<div class="bg-white w-full max-w-[730px] rounded-2xl p-6 mt-6">
+  <div class="flex flex-col md:flex-row gap-5">
+    <img src="img/image-juliusomo-GOpOiOke.webp" alt="juliusomo" class="w-10 h-10 shrink-0">
+    <textarea
+      id="commentdiv"
+      placeholder="Add a comment..."
+      class="flex-1 h-24 border border-gray-300 rounded-lg p-3 resize-none outline-none focus:border-[#5457B6]"></textarea>
+    <button
+      id="sendComment" class="bg-[#5457B6] hover:bg-[#7C7DD6] text-white font-bold px-8 py-3 rounded-lg self-end md:self-start">
+      SEND
+    </button>
+  </div>
+</div>
+<!-- Card 5 -->
+<div class="comment-card bg-white w-full max-w-[650px] md:ml-20 rounded-2xl p-6 mt-6">
+  <div class="flex gap-6">
+    <div class="hidden md:flex bg-[#F5F6FA] rounded-xl w-10 h-24 flex-col items-center justify-around shrink-0">
+      <button class="plus text-[#C5C6EF] text-xl font-bold hover:text-[#5457B6]"> + </button>
+      <span class="score font-bold text-[#5457B6]">  2 </span>
+      <button class="minus text-[#C5C6EF] text-xl font-bold hover:text-[#5457B6]"> - </button>
+    </div>
+    <div class="flex-1">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <img src="img/image-juliusomo-GOpOiOke.webp" alt="juliusomo" class="w-8 h-8">
+          <h3 class="font-bold text-[#334253]">juliusomo</h3>
+          <span class="bg-[#5457B6] text-white text-xs px-2 rounded">you
+          </span>
+          <span class="text-[#67727E]">just now</span>
+        </div>
+        <div class="hidden md:flex gap-6">
+          <button id="deleteBtn" class="flex items-center gap-2 font-bold text-[#ED6368] hover:opacity-70">
+            <span class="material-symbols-outlined">
+              delete </span>
+            Delete </button>
+          <button class="edit flex items-center gap-2 font-bold text-[#5457B6] hover:opacity-70">
+            <span class="material-symbols-outlined">edit</span>  Edit
+          </button>
+        </div>
+      </div>
+      <p class="mt-4 text-[#67727E] leading-7">
+        <span class="font-bold text-[#5457B6]">@ramsesmiron</span>
+        If you're still new, I'd recommend focusing on the fundamentals of HTML,
+        CSS, and JS before considering React.
+      </p>
+      <div class="flex md:hidden justify-between items-center mt-5">
+        <div class="bg-[#F5F6FA] rounded-xl w-24 h-10 flex items-center justify-around">
+          <button class="plus text-[#C5C6EF] text-xl font-bold">+</button>
+          <span class="score font-bold text-[#5457B6]">2</span>
+          <button class="minus text-[#C5C6EF] text-xl font-bold">-</button>
+        </div>
+        <div class="flex gap-5">
+          <button id="deleteBtn" class="flex items-center gap-1 text-[#ED6368] font-bold">
+            <span class="material-symbols-outlined">
+              delete
+            </span>Delete</button>
+          <button class="edit flex items-center gap-1 text-[#5457B6] font-bold">
+            <span class="material-symbols-outlined">
+              edit
+            </span>Edit
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
     <script type="module" src="/src/main.js"></script>
   </body>
